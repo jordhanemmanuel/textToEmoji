@@ -1,0 +1,32 @@
+{
+  "name": "texttoemoji",
+  "version": "1.0.0",
+  "description": "Convert your text to an emoji wall",
+  "main": "app.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node app.js",
+    "dev": "nodemon app.js -e js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jordhanemmanuel/textToEmoji.git"
+  },
+  "keywords": [
+    "emoji",
+    "node",
+    "javascript"
+  ],
+  "author": "Jordhan Emmanuel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jordhanemmanuel/textToEmoji/issues"
+  },
+  "homepage": "https://github.com/jordhanemmanuel/textToEmoji#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
